@@ -1,0 +1,35 @@
+{
+  "title": "[ht] Project Title",
+  "agency": {
+    "longformName": "[ht] NYC Mayor's Office of the Chief Technology Officer",
+    "shortformName": "[ht] NYC CTO"
+  },
+  "location": "[ht] NYC",
+  "navigation": {
+    "dropdowns": [
+      {
+        "buttonLabel": "[ht] Nav Label 1",
+        "linkLabels": ["[ht] Simple link one", "[ht] Simple link two"]
+      },
+      {
+        "buttonLabel": "[ht] Nav Label 2",
+        "linkLabels": ["[ht] Simple link three", "[ht] Simple link four"]
+      }
+    ],
+    "parentLinkLabels": ["[ht] Parent link"]
+  },
+  "header": {
+    "banner": "[ht] An official website of New York City government",
+    "language": "[ht] Language",
+    "menuMobileNav": "[ht] Menu"
+  },
+  "footer": {
+    "returnToTop": "[ht] Return to top",
+    "copyright": "[ht] © 2021 City of New York. All Rights Reserved.",
+    "trademark": "[ht] NYC is a trademark and service mark of the City of New York.",
+    "secondaryLinks": {
+      "terms": "[ht] NYC Terms of Use",
+      "privacy": "[ht] NYC Privacy Policy"
+    }
+  }
+}

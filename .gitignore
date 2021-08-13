@@ -1,0 +1,13 @@
+# npm
+node_modules/
+
+# Gatsby
+.cache/
+public/
+
+# Mac
+.DS_Store
+
+# environmental variables
+.env.development
+.env.production
