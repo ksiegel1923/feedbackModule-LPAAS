@@ -1,5 +1,5 @@
 {
-  "title": "Project Title",
+  "title": "Feedback Module",
   "agency": {
     "longformName": "NYC Mayor's Office of the Chief Technology Officer",
     "shortformName": "NYC CTO"
@@ -8,8 +8,8 @@
   "navigation": {
     "dropdowns": [
       {
-        "buttonLabel": "Nav Label 1",
-        "linkLabels": ["Simple link one", "Simple link two"]
+        "buttonLabel": "Tools Used",
+        "linkLabels": ["Microsoft Excel", "Google Sheets", "Google Analytics"]
       },
       {
         "buttonLabel": "Nav Label 2",

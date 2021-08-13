@@ -1,31 +1,23 @@
 export const header = {
-  navDropDowns: [ // dropdowns
+  navDropDowns: [
+    // dropdowns
     // first dropdown start
     [
       {
-        LABEL: 'navigation.dropdowns.0.linkLabels.0',
-        LINK: 'link-one',
+        LABEL: "navigation.dropdowns.0.linkLabels.0",
+        LINK: "https://www.microsoft.com/en-us/microsoft-365/excel",
       },
       {
-        LABEL: 'navigation.dropdowns.0.linkLabels.1',
-        LINK: 'link-two',
+        LABEL: "navigation.dropdowns.0.linkLabels.1",
+        LINK: "https://www.google.com/sheets/about/",
+      },
+      {
+        LABEL: "navigation.dropdowns.0.linkLabels.2",
+        LINK: "https://marketingplatform.google.com/about/analytics/",
       },
     ],
-    // first dropdown end
-    // second dropdown start
-    [
-      {
-        LABEL: 'navigation.dropdowns.1.linkLabels.0',
-        LINK: 'link-three',
-      },
-      {
-        LABEL: 'navigation.dropdowns.1.linkLabels.1',
-        LINK: 'link-four',
-      },
-    ],
-    // second dropdown end
   ],
-  parentLinks: [{ LABEL: 'navigation.parentLinkLabels.0', LINK: 'link-five' }], // parent (standalone) links
+  parentLinks: [], // parent (standalone) links
 };
 
 export const footer = {
@@ -33,17 +25,19 @@ export const footer = {
     .flat() // turn nested array into flat/unnested array
     .concat(header.parentLinks), // add parent links (taken directly from header; don't make change here)
   secondary: {
-    TERMS: 'terms',
-    PRIVACY: 'privacy',
+    TERMS: "terms",
+    PRIVACY: "privacy",
   },
 };
 
 export const landing = {
-  HERO_BUTTON_LINK: 'https://github.com/nyc-cto/LPaaS2/',
-  SECTION_BUTTON_LINK: 'https://www1.nyc.gov/assets/cto/#/contact',
+  HERO_BUTTON_LINK:
+    "https://docs.google.com/document/d/1SmzwQEeQJy2IyaaJgYfGwjRfaCmcJw1hVxxVP4AvVdg/edit#",
+  SECTION_BUTTON_LINK:
+    "https://docs.google.com/document/d/1SmzwQEeQJy2IyaaJgYfGwjRfaCmcJw1hVxxVP4AvVdg/edit#",
 };
 
 export const page404 = {
-  HOME: '/',
-  CONTACT: 'https://www1.nyc.gov/assets/cto/#/contact',
+  HOME: "/",
+  CONTACT: "https://www1.nyc.gov/assets/cto/#/contact",
 };
